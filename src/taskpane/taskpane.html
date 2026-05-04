@@ -1,0 +1,40 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. -->
+<!-- This file shows how to design a first-run page that provides a welcome screen to the user about the features of the add-in. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoso Task Pane Add-in</title>
+
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Monofett&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div addHoldControl>
+
+    
+<div class="containInputAndButton">
+    <p class="labelsBase lbHoldNumbers">CC</p>
+    <div class="btnContain">
+    <button class="buttonBase btnAddHold">+</button>
+    <button class="buttonBase btnNext"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+    
+</div>
+
+</div>
+
+<script src="./takeinput.ts"></script>
+</body>
+
+</html>
